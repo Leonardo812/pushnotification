@@ -45,7 +45,6 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             .setContentTitle(title)
             .setContentText(text)
             .setSmallIcon(R.drawable.ic_launcher_background)
-            .
             .setAutoCancel(true)
 
         if (ActivityCompat.checkSelfPermission(
